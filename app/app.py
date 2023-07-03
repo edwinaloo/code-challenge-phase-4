@@ -1,6 +1,4 @@
-#!/usr/bin/env python3
-
-from flask import Flask, jsonify, make_response
+from flask import Flask, jsonify, make_response, request
 from flask_migrate import Migrate
 
 from models import db, Restaurant, Pizza, RestaurantPizza
